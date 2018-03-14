@@ -1,0 +1,190 @@
+body {
+  background-color: rgb(195, 55, 37);
+}
+
+div {
+  border-bottom: 2px solid black;
+}
+
+.item1 { 
+    grid-area: header; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.item3 { 
+    grid-area: main; 
+    color: white;
+    font-family: sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+
+}
+
+.item4 {  
+    grid-area: left; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+
+}
+
+.item5 { 
+    grid-area: middle; 
+    color: black;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item6 { 
+    grid-area: right; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item7 {  
+    grid-area: leftone; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+
+}
+
+.item8 { 
+    grid-area: middleone; 
+    color: black;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item9 { 
+   grid-area: rightone; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item10 {  
+    grid-area: lefttwo; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+
+}
+
+.item11 { 
+    grid-area: middletwo; 
+    color: black;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item12 { 
+   grid-area: righttwo; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item13 {  
+    grid-area: leftthree; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+
+}
+
+.item14 { 
+    grid-area: middlethree; 
+    color: black;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item15 { 
+   grid-area: rightthree; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item16 {  
+    grid-area: leftfour; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+
+}
+
+.item17 { 
+    grid-area: middlefour; 
+    color: black;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+
+}
+
+.item18 { 
+   grid-area: rightfour; 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 4% 0% 4% 0%;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'left left middle middle right right'
+    'leftone leftone middleone middleone rightone rightone' 
+    'lefttwo lefttwo middletwo middletwo righttwo righttwo' 
+    'leftthree leftthree middlethree middlethree rightthree rightthree' 
+    'leftfour leftfour middlefour middlefour rightfour rightfour' 
+    ;
+
+
+  grid-gap: 0px;
+  
+  padding: 10%;
+
+}
+
+
